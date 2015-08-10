@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PersonList</string>
+    <string name="first_sorting">First sorting:</string>
+    <string name="second_sorting">Second sorting:</string>
+    <string name="last_sorting">Last sorting:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="sorting">Sorting</string>
+</resources>

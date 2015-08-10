@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardView"
+            card_view:cardUseCompatPadding="true"
+            >
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                >
+            <android.support.v7.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/card_toolbar">
+            </android.support.v7.widget.Toolbar>
+
+            <ImageView
+                    android:layout_width="76dp"
+                    android:layout_height="76dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:id="@+id/person_photo"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="12dp"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_name"
+                    android:layout_toRightOf="@+id/person_photo"
+                    android:layout_alignParentTop="true"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_active"
+                        android:layout_toRightOf="@+id/person_photo"
+                        android:layout_below="@+id/person_name"
+                        />
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/person_gender"
+                           android:layout_marginTop="6dp"
+                           android:layout_toRightOf="@+id/person_photo"
+                           android:layout_below="@+id/person_active"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/person_gender"
+                        android:layout_below="@+id/person_active"
+                        />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_id"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/person_photo"
+                        android:textSize="14sp"
+                        />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_email"
+                        android:layout_below="@+id/person_id"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_phone"
+                        android:layout_below="@+id/person_email"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_address"
+                        android:layout_below="@+id/person_phone"
+                        />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/person_registered"
+                    android:layout_below="@+id/person_address"
+                    />
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
