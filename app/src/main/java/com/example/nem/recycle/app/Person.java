@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * Created by Alexandra on 05.08.2015.
  */
-public class Person {
+public class Person implements Serializable {
     private String id;
     private boolean isActive;
     private String picture;
